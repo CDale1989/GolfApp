@@ -1,0 +1,76 @@
+h1 { 
+  font-family: 'Pacifico', cursive;
+  color: #27ad29;
+  text-decoration: underline;
+  text-decoration-color: #090b0b;
+  font-style: italic;
+}
+
+
+  
+button.miami {
+  background-color: #27ad29 !important;
+  border-color:#0c0d0e !important;
+  margin-top: 10px;
+}
+
+.badge-danger {
+  color: #f85858;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.wrapper {
+  height:100vh;
+  display: grid;
+}
+.center-wrapper {
+  align-self: center;
+  justify-self: center;
+}
+
+.players_wrapper {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.Toastify{
+  position:fixed;
+}
+
+.badge{
+  cursor: pointer;
+}
+
+.action_button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #27ad29;
+  color: white;
+  padding: 15px 40px;
+  font-size: 16px;
+  border: 2px solid #0e0d0e;
+  cursor: pointer;
+}
+
+.action_button.btn_2 {
+  right: 200px;
+}
+
+
+.result_wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.result_wrapper h3 {
+  color: rgb(11, 154, 11);
+}
+.result_wrapper div {
+  font-size: 40px;
+  color: rgba(15, 2, 2, 0.727);
+}
+
+  
+
